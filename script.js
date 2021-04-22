@@ -56,10 +56,17 @@ var stutente4 = {
 
     nome : prompt("Digita il nome del nuovo studente"),
     cognome : prompt("Digita il cognome del nuovo studente"),
-    eta : prompt("Digita l'età del nuovo studente")
+    eta : parseInt(prompt("Digita l'età del nuovo studente"))
     
 }
 
 
 
 console.log(gruppoStudenti.push(stutente4))
+
+//ristampo il nuovo array di oggetti completo compreso il nuovo studente
+
+for (var i = 0; i<gruppoStudenti.length; i++){
+
+    console.log(gruppoStudenti[i].nome + " " + gruppoStudenti[i].cognome + " " + gruppoStudenti[i].eta)
+}
