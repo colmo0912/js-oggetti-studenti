@@ -8,3 +8,10 @@ var studente = {
     eta:" "
     
 }
+
+// stampo le proprietà dell'oggetto con il ciclo
+
+for (var key in studente){
+
+    console.log(key)
+}
