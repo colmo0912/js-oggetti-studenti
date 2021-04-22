@@ -38,9 +38,16 @@ var gruppoStudenti = [
 ];
 console.log(gruppoStudenti)
 
-//stampo tutti i nomi e i cognomi degli studenti
+//stampo con un ciclo tutti i nomi e i cognomi degli studenti
 
 for (var i = 0; i<gruppoStudenti.length; i++){
 
     console.log(gruppoStudenti[i].nome + " " + gruppoStudenti[i].cognome)
 }
+
+//creo i 3 prompt e le variabili in cui salvo i dati inseriti dall'utente
+
+var nuovoStudenteNome = prompt("Digita il nome del nuovo studente")
+var nuovoStudenteCognome = prompt("Digita il cognome del nuovo studente")
+var nuovoStudenteEta = prompt("Digita l'età del nuovo studente")
+console.log("Il nuovo sudente si chiama " + nuovoStudenteNome + " " + nuovoStudenteCognome + " e ha " + nuovoStudenteEta + " anni")
