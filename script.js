@@ -37,3 +37,10 @@ var gruppoStudenti = [
 
 ];
 console.log(gruppoStudenti)
+
+//stampo tutti i nomi e i cognomi degli studenti
+
+for (var i = 0; i<gruppoStudenti.length; i++){
+
+    console.log(gruppoStudenti[i].nome + " " + gruppoStudenti[i].cognome)
+}
